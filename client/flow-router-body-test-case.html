@@ -1,0 +1,23 @@
+<head>
+  <title>flow-router-body-test-case</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Meteor!</h1>
+  </header>
+
+  <main></main>
+
+  <footer>
+    This is the footer.
+  </footer>
+</body>
+
+<template name="appLayout">
+  {{> Template.dynamic template=main }}
+</template>
+
+<template name="feed">
+  <p>This is the feed template</p>
+</template>
